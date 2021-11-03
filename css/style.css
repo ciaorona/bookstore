@@ -1,0 +1,107 @@
+@import "s_book.css";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    text-decoration: none;
+}
+/* =============IMG============== */
+.img_background{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.img_background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ============HEADER=============== */
+.login{
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    z-index: 1;
+    padding: 5px;
+}
+.login a{
+    color:rgb(255, 250, 250);
+}
+.login a:hover{
+    color: maroon;
+}
+/* ==========CONTENT========= */
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.295);
+    position: absolute;
+    top: 0;
+}
+.container .content{
+    width: 55%;
+    margin:20%  auto;
+    text-align: center;
+}
+.content h1{
+    font-size: 65px;
+    font-weight: bolder;
+    /* color: maroon; */
+}
+.content .search{
+    color: maroon;
+    font-size: 30px;
+}
+.search input{
+    padding: 5px 5px;
+    font-size: x-large;
+}
+@media(max-width:1303px) {
+    .container .content{
+        width: 45%;
+        margin:35%  auto;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:1020px) {
+    .container .content{
+        width: 50%;
+        margin:38%  auto;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:842px){
+    .container .content{
+        width: 55%;
+        margin:40%  auto;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .search input{
+        /* padding: 5px 5px; */
+        font-size:medium;
+    }
+    .content .search{
+        font-size: 20px;
+    }
+}
+@media (max-width:532px){
+    .container .content{
+        width: 85%;
+        margin:70%  auto;
+    }
+}
+
+@media (max-width:422px){
+    .container .content{
+        width: 90%;
+        margin:90%  auto;
+    }
+}

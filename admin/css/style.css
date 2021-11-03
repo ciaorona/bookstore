@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+    height: auto;
+    background: maroon;
+}
+.name h3{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+a:hover{
+    color:white;
+}
+/* ======================TABLE======================= */
+.add_book{
+    display: inline-block;
+    width: 90px;
+    margin: 1%;
+    padding: 10px;
+    border: 2px solid maroon;
+    color: maroon;
+}
+.add_book:hover{
+    color: white;
+    background: maroon;
+}
+table{
+    width: 80%;
+    margin: 3% auto;
+}
+table tr{
+    background: rgb(197, 193, 193);
+}
+td,
+th{
+    padding: 5px;
+}
+table td:last-child:hover{
+    background: maroon;
+}
+@media (max-width:900px){
+    table{
+        width: 99%;
+    }
+}
+/* ===========================FORM_ADD_ BOOK======================== */
+form{
+    width: 35%;
+    margin: 5% auto;
+    line-height: 60px;
+    font-size: 20px;
+}
+form > div > input{
+    padding: 4px 7px;
+    float: right;
+    margin: auto 40%;
+}
+form >button{
+    color:white;
+    padding: 10px 15px;
+    background: maroon;
+    font-size: 17px;
+    float: right;
+    margin-top: 7%;
+}
+form >button:hover{
+    border: 2px solid maroon;
+    color: maroon;
+    background: none;
+    cursor: pointer;
+}
+@media (max-width:1132px){
+    form{
+        width: 45%;
+    }
+}
+@media (max-width:865px){
+    form{
+        width: 65%;
+    }
+}
+@media (max-width:554px){
+    form{
+        width: 85%;
+    }
+}

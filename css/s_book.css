@@ -1,0 +1,105 @@
+
+.link{
+    width: 13%;
+    border: 3px solid maroon;
+    font-size: 25px;
+    padding:10px;
+    margin: 3% auto;
+    background: none;
+    text-align: center;
+}
+.link a{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    background: maroon;
+    color: white;
+}
+/* ===================BOOK RESULT============= */
+.result{
+    margin: 3% 1%;
+    display: flex;
+    justify-content: space-around;
+}
+.book_info{
+    width: 30%;
+    box-shadow: 5px 5px 10px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5%;
+}
+.book_info >div>span{
+    color: maroon;
+    font-size: 25px;
+    font-weight: bold;
+}
+.book_info >div{
+    font-size: 22px;
+    line-height: 50px;
+}
+@media (max-width:874px){
+    .book_img{
+        width: 50%;
+        height: 250px;
+    }
+    .link{
+        width: 30%;
+        font-size: 25px;
+    }
+}
+@media (max-width:484px){
+    .result{
+        width: 100%;
+    }
+    .book_img{
+        width: 80%;
+        height: 250px;
+    }
+}
+
+/* ========================LOGIN======================= */
+.form{
+    width: 25%;
+    padding: 30px;
+    margin: 10% auto;
+    font-size: 20px;
+    line-height: 50px;
+    border: 2px solid maroon;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px 8px gray;
+    border-radius: 5px;
+}
+.form >input{
+    /* margin: 25px; */
+    padding: 9px 15px;
+    background: maroon;
+    color: white;
+    float: right;
+    font-size: 15px;
+    /* margin: auto 40%; */
+
+}
+.form >input:hover{
+    color: maroon;
+    background: white;
+    border: 2px solid maroon;
+}
+.input > input{
+    padding: 5px;
+}
+.form >h2{
+    margin-top: 0;
+}
+@media (max-width:707px){
+    .form{
+        width: 60%;
+    }
+}
+
+@media (max-width:446px){
+    form{
+        width: 80%;
+    }
+}
